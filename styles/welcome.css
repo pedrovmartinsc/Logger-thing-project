@@ -17,6 +17,7 @@ body{
     align-items: center;
     background-color: #007;
     color: #fff;
+    justify-content: center;
 }
 
 h1{
