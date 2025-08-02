@@ -4,25 +4,26 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../styles/form.css">
-    <title>Entrar</title>
+    <title>Cadastrar</title>
 </head>
 <body>
     <form>
         <div class="inputs">
-
-            <input type="text" id="userLogin" placeholder="Usuário" required>
-            <input type="password" id="passwordLogin" placeholder="Password" required>
+                        <input type="text" id="name" placeholder="Nome" required>
+            <input type="text" id="userRegister" placeholder="Usuário" required>
+            <input type="password" id="passwordRegister" placeholder="Password" required>
         </div>
-        <button type="button" id="login">Entrar</button>
+        <button type="button" id="register">Cadastrar</button>
         <div class="smalls">
             <small>
             Esqueceu a senha? Recupere <a href="#">aqui</a>.
             </small>
             <small>
-            Não possui cadastro? Cadastre-se <a href="./register.html">aqui</a>.
+            Já possui cadastro? Entre <a href="./login.html">aqui</a>.
             </small>
         </div>
     </form>
+    <script src="../scripts/register.js"></script>
     
 </body>
 </html>
