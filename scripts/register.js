@@ -16,3 +16,17 @@ register.addEventListener("click", function(){
     window.location.href = "../pages/login.html";
     
 });
+
+var show = document.getElementById("show");
+
+show.addEventListener("change", function(){
+    var passwordRegister = document.getElementById("passwordRegister");
+
+    var type = passwordRegister.getAttribute("type");
+
+    if(type === "password"){
+        passwordRegister.setAttribute("type", "text");
+    }else{
+        passwordRegister.setAttribute("type", "password");
+    }
+});
